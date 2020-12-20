@@ -1,0 +1,37 @@
+.slider_container {
+    .slider_list {
+        li {
+            list-style: none;
+            padding: 30px;
+            transition: all 0.7s ease-in-out;
+
+            img {
+                width: 600px;
+                height: 400px;
+            }
+        }
+
+        
+    
+        display: flex;
+        overflow: hidden;
+        padding: 0;
+        background-color: rgb(218, 239, 241);
+    }
+
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    .button {
+        font-size: 30px;
+    }
+        
+    .btn_next {
+        position: absolute;
+        right: 0;
+    }
+}
+
+
